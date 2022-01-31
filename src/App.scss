@@ -1,15 +1,28 @@
 .App {
   text-align: center;
-}
 
-.header-img {
-  width: 300px;
-  height: 300px;
-}
+  .App-header {
+    background-image: url("https://i.imgur.com/Y2YBGeF.png");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    .header-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: rgba(46, 46, 46, 0.1);
+      box-shadow: 0px 0px 50px 20px rgba(36, 36, 36, 0.75);
+      -webkit-box-shadow: 0px 0px 50px 20px rgba(36, 36, 36, 0.75);
+      -moz-box-shadow: 0px 0px 50px 20px rgba(36, 36, 36, 0.75);
+    }
+
+    .header-text {
+      font-weight: 700;
+      font-size: 85px;
+      font-family: "Romanesco", cursive;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.838);
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.625);
+    }
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -8,10 +8,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <section className="header-section">
-          <img className="header-img" src='https://i.imgur.com/jXj1pih.png' alt="rok-university-logo" />
-          <h1>Welcome to RoK University</h1>
-        </section>
+        <img className="header-img" src='https://i.imgur.com/jXj1pih.png' alt="rok-university-logo" />
+        <h1 className="header-text">Welcome to RoK University</h1>
       </header>
       <Routes>
         <Route></Route>
