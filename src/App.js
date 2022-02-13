@@ -10,6 +10,7 @@ function App() {
       <header className="App-header">
         <img className="header-img" src='https://i.imgur.com/jXj1pih.png' alt="rok-university-logo" />
         <h1 className="header-text">Welcome to RoK University</h1>
+        <button class="sbtn  neon-btn rounded-btn white-btn ">Login</button>
       </header>
       <Routes>
         <Route></Route>
